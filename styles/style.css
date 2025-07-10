@@ -17,6 +17,24 @@
 .color-black{
     color: rgba(37, 36, 50, 1);
 }
+.color-gray{
+    color: rgba(37, 36, 50, 0.5);
+}
+.color-light-gray{
+    color: rgba(0, 0, 0, 0.5);
+}
+.bold-38{
+    font-size: 38px;
+    font-weight: bold;
+}
+.bold-42{
+    font-size: 42px;
+    font-weight: bold;
+}
+.bold-80{
+    font-size: 80px;
+    font-weight: bold;
+}
 
 nav{
     display: flex;
@@ -36,7 +54,6 @@ nav h2{
     border-radius: 10px;
     background-color: rgba(78, 71, 255, 1);
     color: white;
-
     font-size: 16px;
     font-weight: bold;
     line-height: 150%;
@@ -47,7 +64,7 @@ header{
     background-image: url(../Assets/Hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    border: 1px solid transparent;           
+    border: 1px solid transparent;             
 }
 header div{
     /* border: 1px solid black; */
@@ -57,4 +74,32 @@ header div{
 header div p{
     font-size: 65px;
     font-weight: bold;
+}
+.sec-see{
+    /* border: 1px solid black; */
+    margin: 115px 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 220px;
+}
+.sec-join{
+    border: 1px solid transparent;
+    margin: 115px 160px;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+}
+.sec-join-content{
+    margin: 50px 142px;
+    text-align: center;
+}
+.sec-join-stats{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.left, .center, .right{
+    flex: 1;
+    text-align: center;
+    line-height: 0px;
 }
