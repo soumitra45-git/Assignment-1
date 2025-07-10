@@ -23,6 +23,12 @@
 .color-light-gray{
     color: rgba(0, 0, 0, 0.5);
 }
+.color-reviwer-name{
+    color: rgba(117, 117, 117, 1);
+}
+.color-date{
+    color: rgba(179, 179, 179, 1);
+}
 .bold-38{
     font-size: 38px;
     font-weight: bold;
@@ -34,6 +40,10 @@
 .bold-80{
     font-size: 80px;
     font-weight: bold;
+}
+.semi-bold-24{
+    font-size: 24px;
+    font-weight: 600;
 }
 
 nav{
@@ -102,4 +112,33 @@ header div p{
     flex: 1;
     text-align: center;
     line-height: 0px;
+}
+.sec-review{
+    /* text-align: center; */
+     margin: 115px 160px;
+     /* border: 1px solid black; */
+}
+.sec-review-img{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 12px;
+    padding: 0px;
+    
+}
+.left-card, .center-card, .right-card{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgba(242, 237, 237, 1);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 14px;
+    padding: 24px;
+    padding-bottom: 15px;
+    box-shadow: 0 6px 50px rgba(0, 0, 0, 0.06);
+}
+.reviews{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    /* border: 1px solid black; */
 }
